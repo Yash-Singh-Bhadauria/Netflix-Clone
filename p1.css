@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+}
+.box1{
+    background-image: url("background.jpg");
+    height: 80vh;
+    opacity: 0.6;
+}
+nav{
+   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 26px;
+}
+#logo {
+    
+    height: 38px;
+  
+}
+
+.side{
+    display: flex;
+    justify-content: flex-end;
+    width: 1065px;
+    gap: 37px;
+}
+
+#eng{
+    color: white;
+    font-weight: 600;
+    width: 101px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+#sign{
+    color: white;
+    background-color: red;
+    font-weight: 600;
+    width: 101px;
+    border-radius: 5px;
+    border: none;
+}
+
+#sign:hover{
+    background-color: rgb(145, 37, 37);
+}
+
+.desc{
+    color: white;
+    position: relative;
+    top: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#d1{
+    font-weight: 900;
+    font-family: 'Martel Sans';
+    font-size: 51px;
+}
+
+.d2{
+    font-size: 26px;
+}
+
+.d3{
+    font-size: 26px;
+}
+
+#d4 input{
+   background-color: transparent;
+   border-radius: 5px;
+   border: 1px solid white;
+   height: 60px;
+   width: 400px;
+   margin-right: 10px ;
+}
+
+#d4 input::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+#start{
+    height: 60px;
+    width: 120px;
+    background-color: red;
+    font-weight: 750;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#start:hover{
+    background-color: rgb(145, 37, 37);
+}
+
+#eng option{
+    color: black;
+}
+
+.border{
+    background-color: rgb(49, 42, 42);;
+    height: 1vh;
+}
+
+.txt{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.img img{
+    height: 303px;;
+}
+
+.tv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.head{
+    font-weight: 900;
+    font-family: 'Martel Sans';
+    font-size: 51px;
+}
+
+.next{
+    font-size: 20px;
+}
