@@ -147,6 +147,77 @@ nav{
     width: 456px;
 }
 
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 25px;
+}
+.faq h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.q{
+    color: white;
+    background-color: rgb(85, 85, 85);
+    width: 1052px;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.q1{
+    width: 1006px;
+}
+.faq .d3{
+    color: white;
+}
+.q:hover{
+    background-color: gray;
+}
+
+#contact{
+    color: white;
+    margin-top: 53px;
+    margin-left: 113px;
+    font-size: 20px;
+}
+
+.others{
+    display: grid;
+    width: 1500px;
+    margin-top: 26px;
+    margin-left: 113px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 31px;
+}
+
+.o{
+    color: white;
+    text-decoration: underline;
+}
+
+footer #eng{
+    margin-left: 113px;
+    margin-top: 20px;
+    width: 101px;
+    height: 30px;
+}
+
+footer{
+    margin-bottom: 53px;
+}
+
+#last{
+    margin-left: 113px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Martel Sans';
+}
 @media screen and (max-width: 428px) {
     .box1{
         background-image: url("background.jpg");
@@ -219,7 +290,7 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 3px;
+        gap: 5px;
     }
     #d4 input{
         background-color: transparent;
@@ -266,5 +337,43 @@ nav{
         align-items: center;
         flex-direction: column;
         
+    }
+    .faq h1{
+        color: white;
+        font-size: 25px;
+        font-weight: 900;
+    }
+    .q{
+        color: white;
+        background-color: rgb(85, 85, 85);
+        width: 314px;
+        font-size: 16px;
+        padding: 20px;
+        display: flex;
+    }
+    .faq{
+        gap: 12px;
+    }
+    footer{
+        margin-bottom: 26px;
+    }
+    .others{
+        display: grid;
+        width: 90vw;
+        margin-top: 26px;
+        margin-left: 2px;
+        grid-template-columns: 1fr 1fr ;
+        gap: 31px;
+    }
+    #contact{
+        color: white;
+        margin-top: 100px;
+       margin-left: 2px;
+        font-size: 20px;
+    }
+    .border{
+        background-color: rgb(49, 42, 42);;
+        height: 1vh;
+        width: 103vw;
     }
 }
